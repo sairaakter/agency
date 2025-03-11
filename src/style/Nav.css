@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Sora", sans-serif;
+  src: url(../font/Sora/static/Sora-Regular.ttf);
+  src: url(../font/Sora/static/Sora-SemiBold.ttf);
+  src: url(../font/Sora/static/Sora-Light.ttf);
+}
+
+.header {
+  padding: 22px 0;
+  border-bottom: 1px solid #1f1f1f;
+  background-color: rgba(15, 15, 15, 0.2);
+  backdrop-filter: blur(3px) !important;
+}
+.navbar {
+  padding: 0 !important;
+}
+.logo {
+  width: 75.31px;
+  height: 54px;
+}
+nav ul li a {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff !important;
+  padding: 12px 18px !important;
+  margin: 0 15px 0 0;
+  border-radius: 84px;
+  border: 1px solid transparent !important;
+  transition: all 0.3s ease;
+}
+nav ul li:last-child a {
+  margin-right: 0 !important;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #1a1a1a;
+  border: 1px solid #1f1f1f;
+}
+
+/* toggloar  */
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+.navbar-toggler:focus {
+  /* text-decoration: none; */
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+.navbar-toggler .navbar-toggler-icon {
+  display: none;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* navbar */
+  .header {
+    padding: 17px 0;
+  }
+  .logo {
+    width: 39.05px !important;
+    height: 28px !important;
+  }
+  nav ul li {
+    text-align: right;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    margin: 6px 0 !important;
+    padding: 10px 14px !important;
+    /* display: inline-block !important; */
+  }
+  .navb {
+    padding: 15px 0;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* navbar */
+  .header {
+    padding: 17px 0;
+  }
+  .logo {
+    width: 47.79px !important;
+    height: 32px !important;
+  }
+  nav ul li {
+    text-align: right;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    margin: 6px 0 !important;
+    padding: 10px 14px !important;
+    /* display: inline-block !important; */
+  }
+  .navb {
+    padding: 20px 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* navbar */
+  .header {
+    padding: 17px 0;
+  }
+  .logo {
+    width: 52.79px !important;
+    height: 37px !important;
+  }
+  nav ul li {
+    text-align: right;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    margin: 6px 0 !important;
+    padding: 10px 14px !important;
+    /* display: inline-block !important; */
+  }
+  .navb {
+    padding: 20px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* navbar */
+  .header {
+    padding: 17px 0;
+  }
+  .logo {
+    width: 52.79px !important;
+    height: 37px !important;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    margin: 0 8px 0 0 !important;
+    padding: 10px 14px !important;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* navbar */
+  .header {
+    padding: 17px 0;
+  }
+  .logo {
+    width: 55.79px !important;
+    height: 40px !important;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    margin: 0 10px 0 0 !important;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+
+} */
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  .cus_container {
+    max-width: 1285px !important;
+  }
+  /* navbar */
+  .header {
+    padding: 17px 0;
+  }
+  .logo {
+    width: 55.79px !important;
+    height: 40px !important;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  .cus_container {
+    max-width: 1420px !important;
+  }
+}
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .cus_container {
+    max-width: 1518px !important;
+  }
+}
+@media (min-width: 1801px) and (max-width: 1850px) {
+  .cus_container {
+    max-width: 1603px !important;
+  }
+}
+@media (min-width: 1851px) {
+  .cus_container {
+    max-width: 1735px !important;
+  }
+}

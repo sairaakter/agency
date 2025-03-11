@@ -1,0 +1,83 @@
+.comon_btn {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  height: 63px;
+  padding: 0 24px;
+  border-radius: 56px;
+  margin-right: 10px;
+}
+.comon_btn:hover {
+  background-color: #fff !important;
+  color: #1a1a1a !important;
+  border: 1px solid #fff !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+    margin-right: 0px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+    margin-right: 0px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+    margin-right: 0px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  .comon_btn {
+    font-size: 15px;
+    height: 55px;
+    padding: 0 22px;
+  }
+}

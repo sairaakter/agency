@@ -1,0 +1,214 @@
+/* baner start */
+.s_banner {
+  background-image: url(../assets/s_banar.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 100px 0 250px 0px;
+}
+.sbanner_content {
+  width: 1060px;
+}
+.sbanner_content h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 130%;
+  color: #fff;
+}
+.sbanner_content p {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #808080;
+  margin: 20px 0 60px 0;
+}
+.s_banarbotom {
+  display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* banner start */
+  .s_banner {
+    background-image: url(../assets/s_banartwo.png);
+    padding: 132px 0 70px 0;
+    background-size: cover;
+  }
+  .sbanner_content {
+    width: 100%;
+    text-align: center;
+  }
+  .s_banarbotom {
+    width: 100%;
+    display: block;
+  }
+  .sbanner_content h1 {
+    font-size: 28px;
+  }
+  .sbanner_content p {
+    font-size: 14px;
+    margin: 12px 0 45px 0;
+  }
+  .sbanner_content h2 {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* banner start */
+  .s_banner {
+    background-image: url(../assets/s_banartwo.png);
+    padding: 132px 0 70px 0;
+    background-size: cover;
+  }
+  .sbanner_content {
+    width: 100%;
+    text-align: center;
+  }
+  .s_banarbotom {
+    width: 100%;
+    display: block;
+  }
+  .sbanner_content h1 {
+    font-size: 40px;
+  }
+  .sbanner_content p {
+    font-size: 16px;
+    margin: 16px 0 45px 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* banner start */
+  .s_banner {
+    padding: 38px 0 90px 0;
+    background-size: 100% 79%;
+  }
+  .sbanner_content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sbanner_content h1 {
+    font-size: 40px;
+  }
+  .sbanner_content p {
+    font-size: 16px;
+    margin: 19px 0 56px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* banner start */
+  .s_banner {
+    padding: 30px 0 100px 0;
+    background-size: 100% 85%;
+  }
+
+  .sbanner_content {
+    width: 715px;
+    margin-left: 71px;
+  }
+  .sbanner_content h1 {
+    font-size: 40px;
+  }
+  .sbanner_content p {
+    font-size: 16px;
+    margin: 14px 0 42px 0;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* banner start */
+  .s_banner {
+    padding: 48px 0 100px 0;
+  }
+
+  .sbanner_content {
+    width: 858px;
+    margin-left: 100px;
+  }
+  .sbanner_content h1 {
+    font-size: 48px;
+  }
+  .sbanner_content p {
+    font-size: 16px;
+    margin: 16px 0 60px 0;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  .cus_container {
+    max-width: 1285px !important;
+  }
+
+  /* banner start */
+  .s_banner {
+    padding: 84px 0 120px 0;
+  }
+
+  .sbanner_content {
+    width: 858px;
+    margin-left: 100px;
+  }
+  .sbanner_content h1 {
+    font-size: 48px;
+  }
+  .sbanner_content p {
+    font-size: 16px;
+    margin: 16px 0 60px 0;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  .cus_container {
+    max-width: 1420px !important;
+  }
+  /* banner start */
+  .s_banner {
+    padding: 84px 0 120px 0;
+  }
+
+  .sbanner_content {
+    width: 858px;
+    margin-left: 100px;
+  }
+  .sbanner_content h1 {
+    font-size: 52px;
+  }
+  .sbanner_content p {
+    font-size: 17px;
+    margin: 16px 0 60px 0;
+  }
+}
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .cus_container {
+    max-width: 1518px !important;
+  }
+  /* banner start */
+  /* .banner{
+     padding: 148px 0 201px 0;
+   } */
+  .s_banner {
+    padding: 100px 0 200px 0px;
+  }
+  .sbanner_content {
+    width: 858px;
+    margin-left: 100px;
+  }
+}
+@media (min-width: 1801px) and (max-width: 1850px) {
+  .cus_container {
+    max-width: 1603px !important;
+  }
+}
+@media (min-width: 1851px) {
+  .cus_container {
+    max-width: 1735px !important;
+  }
+}

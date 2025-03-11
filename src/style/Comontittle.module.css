@@ -1,0 +1,134 @@
+.startcon_ttl {
+  display: flex;
+  justify-content: center;
+}
+.comon_tittles {
+  text-align: center;
+  width: 1100px;
+}
+.comon_tittles h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #fff;
+}
+.comon_tittles p {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #808080;
+  margin: 20px 0 100px 0;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 28px;
+  }
+  .comon_tittles p {
+    font-size: 14px;
+    margin: 10px 0 50px 0;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* comon tittle */
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 32px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 10px 0 60px 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 14px 0 60px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 14px 0 60px 0;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 14px 0 80px 0;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+
+} */
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 14px 0 80px 0;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #808080;
+    margin: 14px 0 80px 0;
+  }
+}

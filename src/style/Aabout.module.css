@@ -1,0 +1,609 @@
+/* <!-- abou team membar --> */
+.about {
+  padding: 0 0 140px 0;
+}
+.startcon_ttl {
+  display: flex;
+  justify-content: center;
+}
+.comon_tittles {
+  text-align: center;
+  width: 1100px;
+}
+.comon_tittles h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #fff;
+}
+.comon_tittles p {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #808080;
+  margin: 20px 0 100px 0;
+}
+
+.for_bdr {
+  position: relative;
+  overflow: hidden; /* Ensures pseudo-border does not leak */
+}
+.for_bdr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px; /* Ensuring border curve */
+  padding: 1px; /* Border width */
+  background: linear-gradient(
+    to bottom,
+    rgba(41, 41, 41, 1),
+    rgba(41, 41, 41, 0)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.about_card {
+  background-image: url(../assets/abfirstmem.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.padcard {
+  display: flex;
+  padding: 50px 0 0 0;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.about_card h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+  margin: 24px 0;
+}
+.about_card button {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  margin: 0;
+  background: linear-gradient(
+    45deg,
+    rgb(31, 31, 31, 100%),
+    rgba(31, 31, 31, 0)
+  ); /* Background gradient */
+  outline: none;
+  border-radius: 50px;
+  border: none;
+  height: 52px;
+  padding: 0 31px;
+}
+
+.abt_btn {
+  position: relative;
+  overflow: hidden; /* Ensures pseudo-border does not leak */
+}
+.abt_btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50px; /* Ensuring border curve */
+  padding: 1px; /* Border width */
+  background: linear-gradient(
+    -45deg,
+    rgb(51, 51, 51, 100%),
+    rgba(51, 51, 51, 0%)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.about_card button:hover {
+  background: linear-gradient(
+    -45deg,
+    rgb(31, 31, 31, 100%),
+    rgba(31, 31, 31, 0)
+  ); /* Background gradient */
+}
+
+.about_card hr {
+  opacity: 1;
+  border: none;
+  background: linear-gradient(
+    to right,
+    rgb(38, 38, 38, 0) 0%,
+    /* Red at 0% */ rgb(38, 38, 38, 100%) 50%,
+    /* Green at 50% (center) */ rgb(38, 38, 38, 0) 100% /* Blue at 100% */
+  );
+  width: 100%; /* Full width */
+  margin: 50px 0 24px 0; /* Centering */
+  height: 1px;
+}
+.card_img {
+  display: flex;
+  gap: 10px;
+}
+.card_img img {
+  width: 64px;
+  height: 64px;
+}
+
+/* achive start */
+.Achievemant {
+  padding: 0 0 140px 0;
+}
+
+.achiv_styl {
+  display: flex;
+}
+
+.achiv_flex {
+}
+
+.hunderds {
+  margin: 37px 0 0 -110px;
+  position: relative;
+  z-index: -1;
+}
+.hunderds h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+  margin: 0;
+}
+.sub_achivflex {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.sub_achivflex h3 {
+  font-family: "Sora", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #fff;
+  margin: 0;
+}
+
+.achiv_descr {
+  margin-top: 50px;
+  border: 1px solid #1f1f1f;
+  border-radius: 20px;
+  padding: 50px;
+  background-color: #0f0f0f;
+}
+.achiv_descr h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  margin: 0;
+}
+.achiv_descr p {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #8c8c8c;
+  margin: 14px 0 0;
+}
+
+.widthff {
+  width: 210px;
+}
+.foundation {
+  margin: 80px 0 0;
+}
+
+.lee_btn {
+  display: flex;
+  gap: 10px;
+}
+.lee_btn button {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #8c8c8c;
+  margin: 0;
+  background-color: transparent;
+  border: 1px solid #1f1f1f;
+  padding: 0px 18px;
+  border-radius: 50px;
+  height: 55px;
+}
+.leeetwo button {
+  color: #fff !important;
+}
+.lee_flex {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.lee_flex img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* about start */
+
+  .about {
+    padding: 0 0 70px 0;
+  }
+  .about_card {
+    margin-bottom: 30px;
+  }
+  .padcard {
+    padding: 40px 0 0 0;
+  }
+  .padcard img {
+    width: 108px;
+    height: 108px;
+  }
+  .about_card h2 {
+    font-size: 16px;
+    margin: 16px 0;
+  }
+  .about_card button {
+    font-size: 14px;
+    height: 44px;
+    padding: 0px 20px;
+  }
+  .about_card button:hover {
+    background: linear-gradient(
+      -45deg,
+      rgb(31, 31, 31, 100%),
+      rgba(31, 31, 31, 0)
+    ); /* Background gradient */
+  }
+
+  .about_card hr {
+    margin: 30px 0 20px 0;
+  }
+  .card_img {
+    gap: 10px;
+  }
+  .card_img img {
+    width: 52px !important;
+    height: 52px !important;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* about start */
+
+  .about {
+    padding: 0 0 90px 0;
+  }
+  .about_card {
+    margin-bottom: 40px;
+  }
+  .padcard {
+    padding: 40px 0 0 0;
+  }
+  .padcard img {
+    width: 108px;
+    height: 108px;
+  }
+  .about_card h2 {
+    font-size: 16px;
+    margin: 16px 0;
+  }
+  .about_card button {
+    font-size: 14px;
+    height: 44px;
+    padding: 0px 20px;
+  }
+  .about_card button:hover {
+    background: linear-gradient(
+      -45deg,
+      rgb(31, 31, 31, 100%),
+      rgba(31, 31, 31, 0)
+    ); /* Background gradient */
+  }
+
+  .about_card hr {
+    margin: 30px 0 20px 0;
+  }
+  .card_img {
+    gap: 10px;
+  }
+  .card_img img {
+    width: 52px !important;
+    height: 52px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* about start */
+
+  .about {
+    padding: 0 0 90px 0;
+  }
+  .about_card {
+    margin-bottom: 40px;
+  }
+  .padcard {
+    padding: 40px 0 0 0;
+  }
+  .padcard img {
+    width: 108px;
+    height: 108px;
+  }
+  .about_card h2 {
+    font-size: 18px;
+    margin: 14px 0;
+  }
+  .about_card button {
+    font-size: 16px;
+    height: 46px;
+    padding: 0px 22px;
+  }
+  .about_card button:hover {
+    background: linear-gradient(
+      -45deg,
+      rgb(31, 31, 31, 100%),
+      rgba(31, 31, 31, 0)
+    ); /* Background gradient */
+  }
+
+  .about_card hr {
+    margin: 40px 0 20px 0; /* Centering */
+  }
+  .card_img {
+    gap: 10px;
+  }
+  .card_img img {
+    width: 52px !important;
+    height: 52px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* about start */
+
+  .about {
+    padding: 0 0 120px 0;
+  }
+  .about_card {
+    margin-bottom: 40px;
+  }
+  .padcard {
+    padding: 40px 0 0 0;
+  }
+  .padcard img {
+    width: 85px;
+    height: 85px;
+  }
+  .about_card h2 {
+    font-size: 18px;
+    margin: 14px 0;
+  }
+  .about_card button {
+    font-size: 14px;
+    height: 40px;
+    padding: 0 18px;
+  }
+  .about_card button:hover {
+    background: linear-gradient(
+      -45deg,
+      rgb(31, 31, 31, 100%),
+      rgba(31, 31, 31, 0)
+    ); /* Background gradient */
+  }
+
+  .about_card hr {
+    margin: 40px 0 20px 0; /* Centering */
+  }
+  .card_img {
+    gap: 10px;
+  }
+  .card_img img {
+    width: 52px !important;
+    height: 52px !important;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* about start */
+
+  .about {
+    padding: 0 0 120px 0;
+  }
+  .about_card {
+    margin-bottom: 40px;
+  }
+  .padcard {
+    padding: 40px 0 0 0;
+  }
+  .padcard img {
+    width: 108px;
+    height: 108px;
+  }
+
+  .about_card h2 {
+    font-size: 18px;
+    margin: 16px 0;
+  }
+  .about_card button {
+    font-size: 16px;
+    height: 44px;
+    padding: 0 20px;
+  }
+  .about_card button:hover {
+    background: linear-gradient(
+      -45deg,
+      rgb(31, 31, 31, 100%),
+      rgba(31, 31, 31, 0)
+    ); /* Background gradient */
+  }
+
+  .about_card hr {
+    margin: 40px 0 20px 0; /* Centering */
+  }
+  .card_img {
+    gap: 10px;
+  }
+  .card_img img {
+    width: 52px !important;
+    height: 52px !important;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+
+} */
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  .cus_container {
+    max-width: 1285px !important;
+  }
+
+  /* about start */
+
+  .about {
+    padding: 0 0 120px 0;
+  }
+  .about_card {
+    margin-bottom: 40px;
+  }
+  .padcard {
+    padding: 40px 0 0 0;
+  }
+  .padcard img {
+    width: 108px;
+    height: 108px;
+  }
+  .about_card h2 {
+    font-size: 18px;
+    margin: 16px 0;
+  }
+  .about_card button {
+    font-size: 16px;
+    height: 44px;
+    padding: 0 20px;
+  }
+  .about_card button:hover {
+    background: linear-gradient(
+      -45deg,
+      rgb(31, 31, 31, 100%),
+      rgba(31, 31, 31, 0)
+    ); /* Background gradient */
+  }
+
+  .about_card hr {
+    margin: 40px 0 20px 0; /* Centering */
+  }
+  .card_img {
+    gap: 10px;
+  }
+  .card_img img {
+    width: 52px !important;
+    height: 52px !important;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  .cus_container {
+    max-width: 1420px !important;
+  }
+
+  /* about start */
+
+  .about {
+    padding: 0 0 120px 0;
+  }
+  .about_card {
+    margin-bottom: 40px;
+  }
+  .padcard {
+    padding: 40px 0 0 0;
+  }
+  .padcard img {
+    width: 108px;
+    height: 108px;
+  }
+  .about_card h2 {
+    font-size: 18px;
+    margin: 16px 0;
+  }
+  .about_card button {
+    font-size: 16px;
+    height: 44px;
+    padding: 0 20px;
+  }
+  .about_card button:hover {
+    background: linear-gradient(
+      -45deg,
+      rgb(31, 31, 31, 100%),
+      rgba(31, 31, 31, 0)
+    ); /* Background gradient */
+  }
+
+  .about_card hr {
+    margin: 40px 0 20px 0; /* Centering */
+  }
+  .card_img {
+    gap: 10px;
+  }
+  .card_img img {
+    width: 52px !important;
+    height: 52px !important;
+  }
+}
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .cus_container {
+    max-width: 1518px !important;
+  }
+}
+@media (min-width: 1801px) and (max-width: 1850px) {
+  .cus_container {
+    max-width: 1603px !important;
+  }
+}
+@media (min-width: 1851px) {
+  .cus_container {
+    max-width: 1735px !important;
+  }
+}
+/* ////// this are for customs  */
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 2500px) {
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+}
+@media (min-width: 330px) and (max-width: 575px) {
+}

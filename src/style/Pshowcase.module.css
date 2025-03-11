@@ -1,0 +1,1369 @@
+/* p_showcase start */
+.p_showcase {
+  padding: 0 0 140px 0;
+}
+
+.startcon_ttl {
+  display: flex;
+  justify-content: center;
+}
+.comon_tittles {
+  text-align: center;
+  width: 1100px;
+}
+.comon_tittles h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #fff;
+}
+.comon_tittles p {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #808080;
+  margin: 20px 0 100px 0;
+}
+
+.p_margg {
+  margin-bottom: 30px;
+}
+.p_showfirst {
+  border: 1px solid #1f1f1f;
+  padding: 50px;
+  border-radius: 20px;
+}
+.p_showfirst img {
+  width: 100%;
+}
+
+.p_showflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.p_showflex h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #fff;
+  margin: 0;
+}
+.p_showflex button {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #666666;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.p_showflex button img {
+  width: 74px;
+  height: 74px;
+}
+.forgap {
+  display: flex;
+  gap: 12px;
+  align-content: center;
+  align-items: center;
+}
+.p_shoallbtns {
+  margin-bottom: 50px;
+}
+
+.all_shocontent {
+  border: 1px solid #1f1f1f;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.p_description {
+}
+.p_description h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 14px;
+}
+.p_description p {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #8c8c8c;
+  margin: 0;
+}
+.fansho {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.comonbdrs {
+  border: 1px solid #1f1f1f;
+  padding: 40px 50px;
+  border-radius: 20px;
+}
+.p_hr {
+  display: none;
+}
+.p_catagoris {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.sub_cat {
+  display: flex;
+  gap: 8px;
+  border-right: 1px solid #1f1f1f;
+  padding: 0 50px;
+  flex-direction: column;
+}
+.p_catagoris .sub_cat:last-child {
+  border-right: none;
+  padding: 0 0 0 50px;
+}
+
+.sub_cat h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #8c8c8c;
+  margin: 0;
+}
+.sub_cat p {
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  margin: 0;
+}
+.p_technology {
+  gap: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+.p_technology h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  margin: 0;
+}
+
+.p_imag {
+  display: flex;
+  gap: 50px;
+  align-content: center;
+  align-items: center;
+}
+.p_imag img {
+  width: 56px;
+  height: 56px;
+}
+
+.members {
+}
+.members h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+.sub_member {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.p_devmem {
+  border: 1px solid #1f1f1f;
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+}
+
+.p_devmem h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+
+.p_intro {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.p_intro img {
+  width: 60px;
+  height: 60px;
+}
+.p_intro p {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  margin: 0;
+}
+
+.method {
+}
+.method h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+.sub_method {
+  border: 1px solid #1f1f1f;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 24px;
+}
+.first_method {
+  border-right: 1px solid #1f1f1f;
+  padding: 0 41px;
+}
+.sub_method .first_method:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.first_method button {
+  background-color: transparent;
+  width: 242px;
+  margin: 0;
+}
+
+/* this is same btn form home section */
+.p_shoallbtns {
+  display: flex;
+  gap: 10px;
+}
+.p_shoallbtns button {
+  display: flex;
+  padding: 14px 18px !important;
+  background-color: transparent !important;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 0 !important;
+  height: 55px;
+  color: #a6a6a6;
+}
+.p_shoallbtns button img {
+  width: 24px;
+  height: 24px;
+}
+
+/* comon btn */
+.comon_btn {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  height: 63px;
+  padding: 0 24px;
+  border-radius: 56px;
+  margin-right: 10px;
+}
+.comon_btn:hover {
+  background-color: #fff !important;
+  color: #1a1a1a !important;
+  border: 1px solid #fff !important;
+}
+.bto {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #262626;
+}
+/* comon btn */
+
+/* ai red more css */
+
+/* Hide the checkbox */
+.read_more_toggle {
+  display: none;
+}
+#secondread_more_toggle {
+  display: none;
+}
+/* Initially hide the extra content */
+.full_text {
+  display: block;
+  margin-top: 50px;
+}
+.secondfull_text {
+  display: block;
+  margin-top: 50px;
+}
+
+/* Read More button styling */
+/* .read-more-btn, .show-less-btn {
+    font-family: "Sora", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #fff !important;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+  } */
+
+/* Hide "Show Less" by default */
+.show_less_btn {
+  display: none;
+}
+.secondshow_less_btn {
+  display: none;
+}
+
+/* When checkbox is checked, show full content */
+.read_more_toggle:checked ~ .full_text {
+  display: block;
+}
+
+/* When checkbox is checked, hide "Read More" and show "Show Less" */
+.read_more_toggle:checked ~ .read_more_btn {
+  display: none;
+}
+
+.read_more_toggle:checked ~ .show_less_btn {
+  display: inline-block;
+}
+
+/* When checkbox is checked, show full content */
+#secondread_more_toggle:checked ~ .secondfull_text {
+  display: block;
+}
+
+/* When checkbox is checked, hide "Read More" and show "Show Less" */
+#secondread_more_toggle:checked ~ .secondread_more_btn {
+  display: none;
+}
+
+#secondread_more_toggle:checked ~ .secondshow_less_btn {
+  display: inline-block;
+}
+
+/* ai read more css */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* showcase start */
+  .p_showcase {
+    padding: 0 0 70px 0;
+  }
+  /* comon tittle */
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 28px;
+  }
+  .comon_tittles p {
+    font-size: 14px;
+    margin: 10px 0 50px 0;
+  }
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px !important;
+    padding: 0 20px;
+    margin-right: 0px;
+  }
+  /* comon tittle */
+  .p_showfirst {
+    padding: 20px;
+  }
+  .all_shocontent {
+    padding: 16px;
+  }
+  .p_showflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+    flex-direction: column-reverse;
+    gap: 12px;
+  }
+
+  .p_showflex h2 {
+    font-size: 20px;
+  }
+  .p_showflex button {
+    font-size: 16px;
+  }
+  .p_showflex button img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .p_shoallbtns {
+    margin-bottom: 40px;
+    gap: 8px;
+    flex-direction: column;
+  }
+  .p_shoallbtns button img {
+    width: 20px;
+    height: 20px;
+  }
+  .p_description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .p_description p {
+    font-size: 16px;
+  }
+  .comonbdrs {
+    padding: 30px 40px;
+  }
+  .sub_cat {
+    padding: 0 15px;
+    gap: 4px;
+  }
+
+  .sub_cat h2 {
+    font-size: 12px;
+  }
+
+  .sub_cat p {
+    font-size: 14px;
+  }
+  .p_technology {
+    gap: 40px;
+  }
+  .p_technology h2 {
+    font-size: 18px;
+  }
+  .p_imag {
+    gap: 40px;
+  }
+  .p_imag img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .members h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+  .p_devmem h2 {
+    font-size: 14px;
+    margin: 0 0 15px 0;
+  }
+  .p_intro img {
+    width: 50px;
+    height: 50px;
+  }
+  .p_intro p {
+    font-size: 14px;
+  }
+  .sub_member {
+    display: inline-block;
+  }
+  .sub_method {
+    border: none;
+    border-radius: 20px;
+    /* display: inline-block; */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-content: center; */
+    padding: 0 15px;
+  }
+  .p_devmem {
+    width: 215px;
+    padding: 15px;
+    border: none;
+  }
+  .method h2 {
+    font-size: 18px;
+    margin: 0px 0 13px 0;
+  }
+  .first_method {
+    border-right: none;
+    padding: 0px 0px;
+    margin-bottom: 10px;
+  }
+
+  .first_method button {
+    width: 100%;
+  }
+  .p_hr {
+    display: block;
+    color: #1f1f1f !important;
+    margin: 10px 0;
+    opacity: 1;
+  }
+  .p_catagoris .sub_cat:nth-of-type(2) {
+    border-right: none;
+    /* padding: 0; */
+  }
+  /* .p_catagoris .sub_cat:nth-of-type(1),
+  .p_catagoris .sub_cat:nth-of-type(2) {
+      border-bottom: 1px solid #1F1F1F;
+     
+  } */
+  .p_catagoris .sub_cat:last-child {
+    border-right: none;
+    padding: 0 15px;
+  }
+
+  .comonbdrs {
+    border: none;
+    padding: 15px 15px;
+  }
+
+  .p_technology {
+    gap: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .p_imag {
+    gap: 8px;
+  }
+  .fansho {
+    display: flex;
+    border: 1px solid #1f1f1f;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 10px;
+    border-radius: 20px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* showcase start */
+  .p_showcase {
+    padding: 0 0 90px 0;
+  }
+  /* comon tittle */
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 32px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 10px 0 60px 0;
+  }
+  .comon_btn {
+    font-size: 14px;
+    height: 49px !important;
+    padding: 0 20px;
+    margin-right: 0px;
+  }
+  /* comon tittle */
+  .p_showfirst {
+    padding: 40px;
+  }
+  .all_shocontent {
+    padding: 40px;
+  }
+  .p_showflex {
+    margin-bottom: 10px;
+  }
+
+  .p_showflex h2 {
+    font-size: 22px;
+  }
+  .p_showflex button {
+    font-size: 16px;
+  }
+  .p_showflex button img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .p_shoallbtns {
+    margin-bottom: 40px;
+    gap: 8px;
+    flex-direction: column;
+  }
+  .p_shoallbtns button img {
+    width: 20px;
+    height: 20px;
+  }
+  .p_description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .p_description p {
+    font-size: 16px;
+  }
+  .comonbdrs {
+    padding: 30px 40px;
+  }
+  .sub_cat {
+    padding: 0 23px;
+    gap: 4px;
+  }
+
+  .sub_cat h2 {
+    font-size: 16px;
+  }
+
+  .sub_cat p {
+    font-size: 18px;
+  }
+  .p_technology {
+    gap: 40px;
+  }
+  .p_technology h2 {
+    font-size: 18px;
+  }
+  .p_imag {
+    gap: 40px;
+  }
+  .p_imag img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .members h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+  .p_devmem h2 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+  .p_intro p {
+    font-size: 16px;
+  }
+  .sub_member {
+    display: inline-block;
+  }
+  .sub_method {
+    border: none;
+    border-radius: 20px;
+    /* display: inline-block; */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-content: center; */
+    padding: 0 15px;
+  }
+  .p_devmem {
+    width: 215px;
+    padding: 15px;
+    border: none;
+  }
+  .method h2 {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+  }
+  .first_method {
+    border-right: none;
+    padding: 0px 0px;
+    margin-bottom: 10px;
+  }
+
+  .first_method button {
+    width: 184px;
+  }
+  .p_hr {
+    display: block;
+    color: #1f1f1f !important;
+    margin: 10px 0;
+    opacity: 1;
+  }
+  .p_catagoris .sub_cat:nth-of-type(2) {
+    border-right: none;
+    /* padding: 0; */
+  }
+  /* .p_catagoris .sub_cat:nth-of-type(1),
+  .p_catagoris .sub_cat:nth-of-type(2) {
+      border-bottom: 1px solid #1F1F1F;
+     
+  } */
+
+  .comonbdrs {
+    border: none;
+    padding: 15px 25px;
+  }
+
+  .p_technology {
+    gap: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .p_imag {
+    gap: 18px;
+  }
+  .fansho {
+    display: flex;
+    border: 1px solid #1f1f1f;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px;
+    border-radius: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* showcase start */
+  .p_showcase {
+    padding: 0 0 90px 0;
+  }
+  /* comon tittle */
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 14px 0 60px 0;
+  }
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px !important;
+    padding: 0 20px;
+    margin-right: 0px;
+  }
+  /* comon tittle */
+  .p_showfirst {
+    padding: 40px;
+  }
+  .all_shocontent {
+    padding: 40px;
+  }
+  .p_showflex {
+    margin-bottom: 10px;
+  }
+
+  .p_showflex h2 {
+    font-size: 22px;
+  }
+  .p_showflex button {
+    font-size: 16px;
+  }
+  .p_showflex button img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .p_shoallbtns {
+    margin-bottom: 40px;
+    gap: 8px;
+    flex-direction: column;
+  }
+  .p_shoallbtns button img {
+    width: 20px;
+    height: 20px;
+  }
+  .p_description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .p_description p {
+    font-size: 16px;
+  }
+  .comonbdrs {
+    padding: 30px 40px;
+  }
+  .sub_cat {
+    padding: 0 38px;
+    gap: 4px;
+  }
+
+  .sub_cat h2 {
+    font-size: 16px;
+  }
+
+  .sub_cat p {
+    font-size: 18px;
+  }
+  .p_technology {
+    gap: 40px;
+  }
+  .p_technology h2 {
+    font-size: 18px;
+  }
+  .p_imag {
+    gap: 40px;
+  }
+  .p_imag img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .members h2 {
+    margin: 0 0 18px 0;
+  }
+  .p_devmem h2 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+  .p_intro p {
+    font-size: 16px;
+  }
+  .sub_member {
+    display: inline-block;
+  }
+  .sub_method {
+    border: 1px solid #1f1f1f;
+    border-radius: 20px;
+    /* display: inline-block; */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-content: center; */
+    padding: 24px;
+  }
+  .p_devmem {
+    width: 215px;
+    padding: 20px;
+    border: none;
+  }
+  .method h2 {
+    margin: 0 0 24px 0;
+  }
+  .first_method {
+    border-right: none;
+    padding: 0px 0px;
+    margin-bottom: 10px;
+  }
+
+  .first_method button {
+    width: 184px;
+  }
+  .p_hr {
+    display: block;
+    color: #1f1f1f !important;
+    margin: 20px 0;
+    opacity: 1;
+  }
+  .p_catagoris .sub_cat:nth-of-type(2) {
+    border-right: none;
+    /* padding: 0; */
+  }
+  /* .p_catagoris .sub_cat:nth-of-type(1),
+  .p_catagoris .sub_cat:nth-of-type(2) {
+      border-bottom: 1px solid #1F1F1F;
+     
+  } */
+
+  .comonbdrs {
+    border: none;
+    padding: 30px 25px;
+  }
+  .p_technology {
+    gap: 22px;
+  }
+  .p_imag {
+    gap: 18px;
+  }
+  .fansho {
+    display: flex;
+    border: 1px solid #1f1f1f;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px;
+    border-radius: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* showcase start */
+  .p_showcase {
+    padding: 0 0 120px 0;
+  }
+  /* comon tittle */
+
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 14px 0 80px 0;
+  }
+  /* comon tittle */
+  /* comon btn */
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+  }
+  /* comon btn */
+  .p_showfirst {
+    padding: 40px;
+  }
+  .all_shocontent {
+    padding: 40px;
+  }
+  .p_showflex {
+    margin-bottom: 15px;
+  }
+
+  .p_showflex h2 {
+    font-size: 22px;
+  }
+  .p_showflex button {
+    font-size: 16px;
+  }
+  .p_showflex button img {
+    width: 52px;
+    height: 52px;
+  }
+  .p_shoallbtns {
+    margin-bottom: 40px;
+  }
+  .p_shoallbtns button img {
+    width: 20px;
+    height: 20px;
+  }
+  .p_description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .p_description p {
+    font-size: 16px;
+  }
+  .comonbdrs {
+    padding: 30px 40px;
+  }
+  .sub_cat {
+    padding-right: 37px;
+    gap: 4px;
+  }
+
+  .sub_cat h2 {
+    font-size: 16px;
+  }
+
+  .sub_cat p {
+    font-size: 18px;
+  }
+  .p_technology {
+    gap: 40px;
+  }
+  .p_technology h2 {
+    font-size: 18px;
+  }
+  .p_imag {
+    gap: 40px;
+  }
+  .p_imag img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .members h2 {
+    margin: 0 0 25px 0;
+  }
+  .p_devmem h2 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+  .p_intro p {
+    font-size: 16px;
+  }
+
+  .p_devmem {
+    width: 215px;
+    padding: 24px;
+  }
+  .method h2 {
+    margin: 0 0 24px 0;
+  }
+  .first_method {
+    padding: 0px 10px;
+  }
+
+  .first_method button {
+    width: 200px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* showcase start */
+  .p_showcase {
+    padding: 0 0 120px 0;
+  }
+  /* comon tittle */
+
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 14px 0 80px 0;
+  }
+  /* comon tittle */
+  /* comon btn */
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+  }
+  /* comon btn */
+  .p_showfirst {
+    padding: 40px;
+  }
+  .all_shocontent {
+    padding: 40px;
+  }
+  .p_showflex {
+    margin-bottom: 15px;
+  }
+
+  .p_showflex h2 {
+    font-size: 24px;
+  }
+  .p_showflex button img {
+    width: 56px;
+    height: 56px;
+  }
+  .p_shoallbtns {
+    margin-bottom: 40px;
+  }
+  .p_shoallbtns button img {
+    width: 20px;
+    height: 20px;
+  }
+  .p_description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .p_description p {
+    font-size: 16px;
+  }
+  .comonbdrs {
+    padding: 30px 40px;
+  }
+  .sub_cat {
+    gap: 4px;
+  }
+  .sub_cat h2 {
+    font-size: 16px;
+  }
+
+  .sub_cat p {
+    font-size: 18px;
+  }
+  .p_technology {
+    gap: 40px;
+  }
+  .p_technology h2 {
+    font-size: 18px;
+  }
+  .p_imag {
+    gap: 40px;
+  }
+  .p_imag img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .members h2 {
+    margin: 0 0 25px 0;
+  }
+  .p_devmem h2 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+  .p_intro p {
+    font-size: 16px;
+  }
+  .p_devmem {
+    padding: 24px;
+    width: 270px;
+  }
+  .method h2 {
+    margin: 0 0 24px 0;
+  }
+  .first_method {
+    padding: 0px 19px;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* showcase start */
+  .p_showcase {
+    padding: 0 0 120px 0;
+  }
+  /* comon tittle */
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-size: 16px;
+    margin: 14px 0 80px 0;
+  }
+  /* common tittle */
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px !important;
+    padding: 0 20px;
+  }
+  /* comon btn */
+  .p_showfirst {
+    padding: 40px;
+  }
+  .all_shocontent {
+    padding: 40px;
+  }
+  .p_showflex {
+    margin-bottom: 15px;
+  }
+
+  .p_showflex h2 {
+    font-size: 24px;
+  }
+  .p_showflex button img {
+    width: 56px;
+    height: 56px;
+  }
+  .p_shoallbtns {
+    margin-bottom: 40px;
+  }
+  .p_shoallbtns button img {
+    width: 20px;
+    height: 20px;
+  }
+  .p_description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .p_description p {
+    font-size: 16px;
+  }
+  .comonbdrs {
+    padding: 30px 40px;
+  }
+  .sub_cat {
+    gap: 4px;
+  }
+  .sub_cat h2 {
+    font-size: 16px;
+  }
+
+  .sub_cat p {
+    font-size: 18px;
+  }
+  .p_technology {
+    gap: 40px;
+  }
+  .p_technology h2 {
+    font-size: 18px;
+  }
+  .p_imag {
+    gap: 40px;
+  }
+  .p_imag img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .members h2 {
+    margin: 0 0 25px 0;
+  }
+  .p_devmem h2 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+  .p_intro p {
+    font-size: 16px;
+  }
+  .p_devmem {
+    padding: 24px;
+  }
+  .method h2 {
+    margin: 0 0 24px 0;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  .cus_container {
+    max-width: 1420px !important;
+  }
+
+  /* showcase start */
+  .p_showcase {
+    padding: 0 0 120px 0;
+  }
+  /* comon tittle */
+  .comon_tittles {
+    text-align: center;
+    width: 1100px;
+  }
+  .comon_tittles h1 {
+    font-size: 38px;
+  }
+  .comon_tittles p {
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #808080;
+    margin: 14px 0 80px 0;
+  }
+  /* common tittle */
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px !important;
+    padding: 0 20px;
+  }
+  /* comon btn */
+  .p_showfirst {
+    padding: 40px;
+  }
+  .all_shocontent {
+    padding: 40px;
+  }
+  .p_showflex {
+    margin-bottom: 15px;
+  }
+
+  .p_showflex h2 {
+    font-size: 24px;
+  }
+  .p_showflex button img {
+    width: 56px;
+    height: 56px;
+  }
+  .p_shoallbtns {
+    margin-bottom: 40px;
+  }
+  .p_shoallbtns button img {
+    width: 20px;
+    height: 20px;
+  }
+  .p_description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .p_description p {
+    font-size: 16px;
+  }
+  .comonbdrs {
+    padding: 30px 40px;
+  }
+  .sub_cat {
+    gap: 4px;
+  }
+  .sub_cat h2 {
+    font-size: 16px;
+  }
+
+  .sub_cat p {
+    font-size: 18px;
+  }
+  .p_technology {
+    gap: 40px;
+  }
+  .p_technology h2 {
+    font-size: 18px;
+  }
+  .p_imag {
+    gap: 40px;
+  }
+  .p_imag img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .members h2 {
+    margin: 0 0 25px 0;
+  }
+  .p_devmem h2 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+  .p_intro p {
+    font-size: 16px;
+  }
+  .p_devmem {
+    padding: 24px;
+  }
+  .method h2 {
+    margin: 0 0 24px 0;
+  }
+}
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .cus_container {
+    max-width: 1518px !important;
+  }
+}
+@media (min-width: 1801px) and (max-width: 1850px) {
+  .cus_container {
+    max-width: 1603px !important;
+  }
+}
+@media (min-width: 1851px) {
+  .cus_container {
+    max-width: 1735px !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  /* showcase start */
+  .first_method button {
+    width: 184px;
+  }
+}

@@ -1,0 +1,322 @@
+/* ready start */
+.ready {
+  padding: 0 0 140px 0;
+}
+.r_content {
+  background-image: url(../assets/r_img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 130px 0px 0;
+  border-radius: 20px;
+}
+.for_bdr {
+  position: relative;
+  overflow: hidden; /* Ensures pseudo-border does not leak */
+}
+.for_bdr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px; /* Ensuring border curve */
+  padding: 1px; /* Border width */
+  background: linear-gradient(
+    to bottom,
+    rgba(41, 41, 41, 1),
+    rgba(41, 41, 41, 0)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+/* comon title */
+.startcon_ttl {
+  display: flex;
+  justify-content: center;
+}
+
+/* comon title */
+.r_btns {
+  text-align: center;
+}
+.r_btns h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  margin: 0px 0 20px;
+  text-align: center;
+}
+/* comon btn */
+.comon_btn {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  height: 63px;
+  padding: 0 24px;
+  border-radius: 56px;
+  margin-right: 10px;
+}
+.comon_btn:hover {
+  background-color: #fff !important;
+  color: #1a1a1a !important;
+  border: 1px solid #fff !important;
+}
+.bto {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #262626;
+}
+/* comon btn */
+.rdx {
+  width: 100%;
+}
+.rdx img {
+  margin-top: 82px !important;
+  width: 100%;
+}
+.r_p {
+  display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* ready start */
+  .ready {
+    padding: 0 0 70px 0;
+  }
+
+  /* comon tittle */
+  .r_content {
+    background-image: url(../assets/r_imgtwo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 40px 0px 0;
+  }
+  .r_btns h2 {
+    font-size: 14px;
+    margin: 0px 0 10px;
+  }
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+    margin-right: 0px;
+  }
+  .b_marg {
+    margin-left: 10px;
+  }
+  /* comon btn */
+  .rdx img {
+    margin-top: 40px;
+  }
+  .r_tittle {
+    text-align: center;
+    width: 88% !important;
+  }
+  .r_tittle h1 {
+    font-size: 24px !important;
+  }
+  .r_tittle p {
+    margin-bottom: 40px;
+    display: none;
+  }
+  .r_p {
+    text-align: center;
+    display: block !important;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* ready start */
+  .ready {
+    padding: 0 0 90px 0;
+  }
+  /* comon tittle */
+  .r_content {
+    background-image: url(../assets/r_imgtwo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 40px 0px 0;
+  }
+  .r_btns h2 {
+    font-size: 16px !important;
+    margin: 0px 0 14px;
+  }
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+    margin-right: 0px;
+  }
+  .b_marg {
+    margin-left: 10px;
+  }
+  /* comon btn */
+  .rdx img {
+    margin-top: 40px;
+  }
+  .r_tittle {
+    width: 88% !important;
+  }
+  .r_tittle p {
+    margin-bottom: 40px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* ready start */
+  .ready {
+    padding: 0 0 90px 0;
+  }
+
+  /* comon tittle */
+  .r_content {
+    padding: 80px 0px 0 !important;
+  }
+  .r_btns h2 {
+    font-size: 16px !important;
+    margin: 0px 0 14px !important;
+  }
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+    margin-right: 0px;
+  }
+  .b_marg {
+    margin-left: 10px !important;
+  }
+  /* comon btn */
+  .rdx img {
+    margin-top: 40px !important;
+  }
+  .r_tittle {
+    width: 88% !important;
+  }
+  .r_tittle p {
+    margin-bottom: 40px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* ready start */
+  .ready {
+    padding: 0 0 120px 0;
+  }
+  /* comon tittle */
+
+  /* comon tittle */
+  .r_content {
+    padding: 100px 0px 0;
+  }
+  .r_btns h2 {
+    font-size: 16px !important;
+    margin: 0px 0 14px !important;
+  }
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+  }
+  .rdx img {
+    margin-top: 42px;
+  }
+  .r_tittle {
+    width: 91% !important;
+  }
+  .r_tittle p {
+    margin-bottom: 50px !important;
+  }
+}
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  .cus_container {
+    max-width: 1285px !important;
+  }
+
+  /* ready start */
+  .ready {
+    padding: 0 0 120px 0;
+  }
+  /* comon tittle */
+
+  /* common tittle */
+
+  .r_btns h2 {
+    font-size: 16px !important;
+    margin: 0px 0 14px !important;
+  }
+  /* comon btn */
+  .comon_btn {
+    font-size: 14px;
+    height: 49px;
+    padding: 0 20px;
+  }
+  /* comon btn */
+  .r_tittle {
+    width: 93% !important;
+  }
+  .r_tittle p {
+    margin-bottom: 50px !important;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* ready start */
+  .ready {
+    padding: 0 0 120px 0;
+  }
+  /* comon tittle */
+  /* common tittle */
+  .r_btns h2 {
+    font-size: 16px !important;
+    margin: 0px 0 14px !important;
+  }
+  .r_tittle {
+    width: 93% !important;
+  }
+  .r_tittle p {
+    margin-bottom: 50px !important;
+  }
+  /* common btn */
+  .comon_btn {
+    font-size: 15px;
+    height: 55px;
+    padding: 0 22px;
+  }
+  /* common btn */
+}
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .cus_container {
+    max-width: 1518px !important;
+  }
+}
+@media (min-width: 1801px) and (max-width: 1850px) {
+  .cus_container {
+    max-width: 1603px !important;
+  }
+}
+@media (min-width: 1851px) {
+  .cus_container {
+    max-width: 1735px !important;
+  }
+}
+/* ////// this are for customs  */
